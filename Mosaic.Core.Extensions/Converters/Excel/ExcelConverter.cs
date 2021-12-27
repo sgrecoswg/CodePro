@@ -1,5 +1,5 @@
-﻿using Mosaic.Core.Extensions.Validation;
-using Mosaic.Core.Models;
+﻿using SensibleProgramming.Core.Extensions.Validation;
+using SensibleProgramming.Core.Models;
 using NPOI.HSSF.UserModel;
 using NPOI.HSSF.Util;
 using NPOI.SS.UserModel;
@@ -10,7 +10,7 @@ using System.IO;
 using System.Threading.Tasks;
 using System.Xml;
 
-namespace Mosaic.Core.Extensions
+namespace SensibleProgramming.Core.Extensions
 {
     public class ExcelConverter : Notifier
     {

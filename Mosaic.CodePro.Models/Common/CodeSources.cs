@@ -1,6 +1,6 @@
 ﻿
 
-namespace Mosaic.CodePro.Models
+namespace SensibleProgramming.CodePro.Models
 {
     public enum CodeSources
     {

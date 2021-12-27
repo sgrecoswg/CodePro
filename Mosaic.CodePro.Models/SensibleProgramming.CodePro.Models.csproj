@@ -7,7 +7,7 @@
     <ProjectGuid>{957C5B5B-725A-4E48-A9EA-05B42AD1B2F0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <RootNamespace>Mosaic.CodePro.Models</RootNamespace>
-    <AssemblyName>Mosaic.CodePro.Models</AssemblyName>
+    <AssemblyName>SensibleProgramming.CodePro.Models</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -77,9 +77,9 @@
     <Compile Include="Common\UIOptions.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Mosaic.Core.Extensions\Mosaic.Core.Extensions.csproj">
+    <ProjectReference Include="..\Mosaic.Core.Extensions\SensibleProgramming.Core.Extensions.csproj">
       <Project>{0F5883EE-F084-47CA-A979-896F0C30E42C}</Project>
-      <Name>Mosaic.Core.Extensions</Name>
+      <Name>SensibleProgramming.Core.Extensions</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

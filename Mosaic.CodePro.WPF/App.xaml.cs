@@ -1,6 +1,6 @@
-﻿using Mosaic.CodePro.Models;
-using Mosaic.CodePro.WPF.Pages;
-using Mosaic.Data.SQL;
+﻿using SensibleProgramming.CodePro.Models;
+using SensibleProgramming.CodePro.WPF.Pages;
+using SensibleProgramming.Data.SQL;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -9,9 +9,9 @@ using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
-using _app = Mosaic.CodePro.WPF.ApplicationContext;
+using _app = SensibleProgramming.CodePro.WPF.ApplicationContext;
 
-namespace Mosaic.CodePro.WPF
+namespace SensibleProgramming.CodePro.WPF
 {
     /// <summary>
     /// Interaction logic for App.xaml

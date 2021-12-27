@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 
-namespace Mosaic.CodePro.Models.CodeWriters.UI
+namespace SensibleProgramming.CodePro.Models.CodeWriters.UI
 {
     public class CSharpWebAPIClassWriter : ClassWriter
     {

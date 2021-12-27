@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Mosaic.CodePro.Models.Access
+namespace SensibleProgramming.CodePro.Models.Access
 {
     public class AccessInstance : BaseDataBaseContainer
     {

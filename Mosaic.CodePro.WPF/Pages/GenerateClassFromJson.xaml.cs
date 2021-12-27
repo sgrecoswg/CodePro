@@ -1,5 +1,5 @@
-﻿using Mosaic.CodePro.Models;
-using Mosaic.Core.Extensions;
+﻿using SensibleProgramming.CodePro.Models;
+using SensibleProgramming.Core.Extensions;
 using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
@@ -16,7 +16,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Mosaic.CodePro.WPF.Pages
+namespace SensibleProgramming.CodePro.WPF.Pages
 {
     /// <summary>
     /// Interaction logic for GenerateClassFromJson.xaml

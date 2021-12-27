@@ -12,9 +12,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using Mosaic.CodePro.WPF;
+using SensibleProgramming.CodePro.WPF;
 
-namespace Mosaic.CodePro.WPF.Pages
+namespace SensibleProgramming.CodePro.WPF.Pages
 {
     /// <summary>
     /// Interaction logic for MainPage.xaml

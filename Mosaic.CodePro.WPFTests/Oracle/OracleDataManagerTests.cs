@@ -1,12 +1,12 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Mosaic.CodePro.Models.Oracle;
+using SensibleProgramming.CodePro.Models.Oracle;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Mosaic.CodePro.Models.Oracle.Tests
+namespace SensibleProgramming.CodePro.Models.Oracle.Tests
 {
     [TestClass()]
     public class OracleDataManagerTests

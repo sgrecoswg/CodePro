@@ -1,12 +1,12 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Mosaic.Data.SQL;
+using SensibleProgramming.Data.SQL;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Mosaic.Data.SQL.Tests
+namespace SensibleProgramming.Data.SQL.Tests
 {
     [TestClass()]
     public class SQLManagerTests

@@ -12,9 +12,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using Mosaic.CodePro.Models;
+using SensibleProgramming.CodePro.Models;
 
-namespace Mosaic.CodePro.WPF.Usercontrols
+namespace SensibleProgramming.CodePro.WPF.Usercontrols
 {
     /// <summary>
     /// Interaction logic for UIOptions.xaml

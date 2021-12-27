@@ -1,5 +1,5 @@
-﻿using Mosaic.Core.Extensions;
-using Mosaic.Core.Models;
+﻿using SensibleProgramming.Core.Extensions;
+using SensibleProgramming.Core.Models;
 using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Mosaic.CodePro.Models
+namespace SensibleProgramming.CodePro.Models
 {
     public class JsonClassWriter : Notifier
     {

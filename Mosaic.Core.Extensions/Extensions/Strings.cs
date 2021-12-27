@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 using System.Xml;
 using System.Xml.Serialization;
 
-namespace Mosaic.Core.Extensions
+namespace SensibleProgramming.Core.Extensions
 {
     public static class StringExtensions
     {

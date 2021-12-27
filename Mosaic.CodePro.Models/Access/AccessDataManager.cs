@@ -1,4 +1,4 @@
-﻿using Mosaic.Core.Models;
+﻿using SensibleProgramming.Core.Models;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Mosaic.CodePro.Models.Access
+namespace SensibleProgramming.CodePro.Models.Access
 {
     public partial class AccessDataManager : Notifier
     {

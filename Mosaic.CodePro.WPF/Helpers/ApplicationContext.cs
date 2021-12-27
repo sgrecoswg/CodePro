@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Controls;
 
-namespace Mosaic.CodePro.WPF
+namespace SensibleProgramming.CodePro.WPF
 {
     public static class ApplicationContext
     {

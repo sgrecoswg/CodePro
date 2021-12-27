@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Mosaic.CodePro.WPF.Properties
+namespace SensibleProgramming.CodePro.WPF.Properties
 {
 
 
@@ -44,7 +44,7 @@ namespace Mosaic.CodePro.WPF.Properties
             {
                 if ((resourceMan == null))
                 {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Mosaic.CodePro.WPF.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("SensibleProgramming.CodePro.WPF.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

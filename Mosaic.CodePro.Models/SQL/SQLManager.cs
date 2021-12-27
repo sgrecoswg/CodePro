@@ -11,7 +11,7 @@ using System.Data.SqlClient;
 using System.Data.OleDb;
 using System.IO;
 
-namespace Mosaic.Data.SQL
+namespace SensibleProgramming.Data.SQL
 {
     public class SQLManager
     {
@@ -807,7 +807,7 @@ namespace Mosaic.Data.SQL
                         con.Open();
                     }
 
-                    string script = File.ReadAllText(@"C:\Dev\git\Mosaic.CodePro\Mosaic.CodePro.WPF\SQLScripts\parambuilder.sql");
+                    string script = File.ReadAllText(@"C:\Dev\git\SensibleProgramming.CodePro\SensibleProgramming.CodePro.WPF\SQLScripts\parambuilder.sql");
                     script = script.Replace("~tablename~", storedProcedure);
                     SqlCommand cmd = new SqlCommand(script, con);
                     var reader = cmd.ExecuteReader();

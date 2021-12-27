@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Mosaic.CodePro.WPF.Properties
+namespace SensibleProgramming.CodePro.WPF.Properties
 {
 
 

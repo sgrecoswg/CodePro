@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
 
-namespace Mosaic.Core.Extensions
+namespace SensibleProgramming.Core.Extensions
 {
     public static class XmlWriterExtension
     {

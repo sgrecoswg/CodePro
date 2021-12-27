@@ -15,7 +15,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Mosaic.CodePro.WPF.Usercontrols
+namespace SensibleProgramming.CodePro.WPF.Usercontrols
 {
     /// <summary>
     /// Interaction logic for FolderChooser.xaml

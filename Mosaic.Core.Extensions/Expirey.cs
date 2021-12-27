@@ -1,5 +1,5 @@
 ﻿
-namespace Mosaic.Core.Extensions
+namespace SensibleProgramming.Core.Extensions
 {
     public enum Expirey : int
     {

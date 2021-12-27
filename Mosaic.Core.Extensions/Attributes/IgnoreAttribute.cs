@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Mosaic.Core.Extensions
+namespace SensibleProgramming.Core.Extensions
 {
     [AttributeUsage(AttributeTargets.All, Inherited = false, AllowMultiple = true)]
     public sealed class IgnoreAttribute : Attribute

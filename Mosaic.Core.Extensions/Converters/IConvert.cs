@@ -9,7 +9,7 @@ using System.Xml;
 using System.Data;
 using System.IO;
 
-namespace Mosaic.Core.Extensions
+namespace SensibleProgramming.Core.Extensions
 {
     public interface IConvertTo<T>
     {

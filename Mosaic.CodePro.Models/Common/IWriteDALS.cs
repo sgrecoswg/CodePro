@@ -1,11 +1,11 @@
-﻿using Mosaic.Data.SQL;
+﻿using SensibleProgramming.Data.SQL;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Mosaic.CodePro.Models
+namespace SensibleProgramming.CodePro.Models
 {
     public interface IWriteDALS
     {

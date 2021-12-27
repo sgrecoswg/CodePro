@@ -3,14 +3,14 @@ using System.IO;
 using System.Security.Cryptography;
 using System.Text;
 
-namespace Mosaic.Core.Extensions.Cryptography
+namespace SensibleProgramming.Core.Extensions.Cryptography
 {
     public static class Cryptography
     {
-        private const string initVector = "mosaicl9uzpgzl88";
+        private const string initVector = "SensibleProgrammingl9uzpgzl88";
         // This constant is used to determine the keysize of the encryption algorithm
         private const int keysize = 256;
-        private const string passPhrase = "Mosaic!123";
+        private const string passPhrase = "SensibleProgramming!123";
 
         //Encrypt
         public static string Encrypt(this string plainText)

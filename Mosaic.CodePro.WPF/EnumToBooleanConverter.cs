@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Data;
 
-namespace Mosaic.CodePro.WPF
+namespace SensibleProgramming.CodePro.WPF
 {
     public class EnumToBooleanConverter : IValueConverter
     {

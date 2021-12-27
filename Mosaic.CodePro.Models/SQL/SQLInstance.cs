@@ -1,11 +1,11 @@
-﻿using Mosaic.CodePro.Models;
+﻿using SensibleProgramming.CodePro.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Mosaic.Data.SQL
+namespace SensibleProgramming.Data.SQL
 {
     /// <summary>
     /// An instance of an SQL Server

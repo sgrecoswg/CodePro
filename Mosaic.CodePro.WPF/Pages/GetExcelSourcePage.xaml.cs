@@ -1,5 +1,5 @@
-﻿using Mosaic.CodePro.Models.Excel;
-using Mosaic.Core.Extensions;
+﻿using SensibleProgramming.CodePro.Models.Excel;
+using SensibleProgramming.Core.Extensions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,7 +15,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Mosaic.CodePro.WPF.Pages
+namespace SensibleProgramming.CodePro.WPF.Pages
 {
     /// <summary>
     /// Interaction logic for GetExcelSourcePage.xaml

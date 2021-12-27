@@ -13,11 +13,11 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using Mosaic.CodePro.Models;
-using Mosaic.Data.SQL;
-using static Mosaic.Data.SQL.SQLInstance;
+using SensibleProgramming.CodePro.Models;
+using SensibleProgramming.Data.SQL;
+using static SensibleProgramming.Data.SQL.SQLInstance;
 
-namespace Mosaic.CodePro.WPF.Pages
+namespace SensibleProgramming.CodePro.WPF.Pages
 {
     /// <summary>
     /// Interaction logic for GetSqlDataSourcePage.xaml

@@ -1,11 +1,11 @@
-﻿<UserControl x:Class="Mosaic.CodePro.WPF.Usercontrols.DalOptions"
+﻿<UserControl x:Class="SensibleProgramming.CodePro.WPF.Usercontrols.DalOptions"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-             xmlns:local="clr-namespace:Mosaic.CodePro.WPF.Usercontrols"
-              xmlns:root="clr-namespace:Mosaic.CodePro.WPF"   
-             xmlns:models="clr-namespace:Mosaic.CodePro.Models;assembly=Mosaic.CodePro.Models" 
+             xmlns:local="clr-namespace:SensibleProgramming.CodePro.WPF.Usercontrols"
+              xmlns:root="clr-namespace:SensibleProgramming.CodePro.WPF"   
+             xmlns:models="clr-namespace:SensibleProgramming.CodePro.Models;assembly=SensibleProgramming.CodePro.Models" 
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid>

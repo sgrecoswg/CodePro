@@ -17,7 +17,7 @@ using System.ComponentModel;
 using System.Data;
 using System.ComponentModel.DataAnnotations;
 
-namespace Mosaic.Core.Extensions
+namespace SensibleProgramming.Core.Extensions
 {
     public static class ObjectExtensions
     {

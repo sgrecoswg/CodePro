@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Data;
 
-namespace Mosaic.CodePro.WPF
+namespace SensibleProgramming.CodePro.WPF
 {
     public class ComparisonConverter : IValueConverter
     {

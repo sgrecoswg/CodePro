@@ -1,6 +1,6 @@
-﻿using Mosaic.CodePro.Models.CodeWriters.Dals;
-using Mosaic.Core.Models;
-using Mosaic.Data.SQL;
+﻿using SensibleProgramming.CodePro.Models.CodeWriters.Dals;
+using SensibleProgramming.Core.Models;
+using SensibleProgramming.Data.SQL;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Mosaic.CodePro.Models.CodeWriters
+namespace SensibleProgramming.CodePro.Models.CodeWriters
 {
 
     public class CSharpClassWriter : ClassWriter
@@ -33,7 +33,7 @@ namespace Mosaic.CodePro.Models.CodeWriters
         {
             StringBuilder sb = new StringBuilder();
             sb.AppendLine($"using System;");
-            sb.AppendLine($"namespace Mosaic.{tbl.DatabaseName}.Core.Interfaces.Models");
+            sb.AppendLine($"namespace SensibleProgramming.{tbl.DatabaseName}.Core.Interfaces.Models");
             sb.AppendLine("{");
             sb.AppendLine($"\tpublic interface I{tbl.Name}");
             sb.AppendLine("\t{");
@@ -84,8 +84,8 @@ namespace Mosaic.CodePro.Models.CodeWriters
         {
             StringBuilder sb = new StringBuilder();
             sb.AppendLine($"using System;");
-            sb.AppendLine($"using Mosaic.Core.Bus;");            
-            sb.AppendLine($"namespace Mosaic.{tbl.DatabaseName}.Commands");
+            sb.AppendLine($"using SensibleProgramming.Core.Bus;");            
+            sb.AppendLine($"namespace SensibleProgramming.{tbl.DatabaseName}.Commands");
             sb.AppendLine("{");
 
             sb.AppendLine($"\tpublic class Create{tbl.Name}CommandHandler : CommandHandler");
@@ -255,7 +255,7 @@ namespace Mosaic.CodePro.Models.CodeWriters
         {
             StringBuilder sb = new StringBuilder();
             sb.AppendLine($"using System;");
-            sb.AppendLine($"namespace Mosaic.{tbl.DatabaseName}.Models");
+            sb.AppendLine($"namespace SensibleProgramming.{tbl.DatabaseName}.Models");
             sb.AppendLine("{");
             if (tbl is Access.AccessInstance.AccessTable ||
                 tbl is Excel.ExcelInstance.ExcelTable)
@@ -362,8 +362,8 @@ namespace Mosaic.CodePro.Models.CodeWriters
             sb.AppendLine($"using System;");
             sb.AppendLine($"using System.ComponentModel.DataAnnotations;");
             sb.AppendLine($"using System.ComponentModel.DataAnnotations.Schema;");
-            sb.AppendLine($"using Mosaic.{tbl.DatabaseName}.Core.Interfaces.Models;");
-            sb.AppendLine($"namespace Mosaic.{tbl.DatabaseName}.DAL.Models");
+            sb.AppendLine($"using SensibleProgramming.{tbl.DatabaseName}.Core.Interfaces.Models;");
+            sb.AppendLine($"namespace SensibleProgramming.{tbl.DatabaseName}.DAL.Models");
             sb.AppendLine("{");
 
             if (tbl is Access.AccessInstance.AccessTable ||
@@ -449,11 +449,11 @@ namespace Mosaic.CodePro.Models.CodeWriters
             sb.AppendLine($"using System.Web.Http;");
             sb.AppendLine($"using System.Net;");
             sb.AppendLine($"using System.Net.Http;");
-            sb.AppendLine($"using Mosaic.{tbl.DatabaseName}.DAL.Repositories;");
-            sb.AppendLine($"using Mosaic.{tbl.DatabaseName}.Models;");
-            sb.AppendLine($"using Mosaic.{tbl.DatabaseName}.MVC.Models;");
+            sb.AppendLine($"using SensibleProgramming.{tbl.DatabaseName}.DAL.Repositories;");
+            sb.AppendLine($"using SensibleProgramming.{tbl.DatabaseName}.Models;");
+            sb.AppendLine($"using SensibleProgramming.{tbl.DatabaseName}.MVC.Models;");
             sb.AppendLine($"");
-            sb.AppendLine($"namespace Mosaic.{tbl.DatabaseName}.WebAPI.Controllers");
+            sb.AppendLine($"namespace SensibleProgramming.{tbl.DatabaseName}.WebAPI.Controllers");
             sb.AppendLine("{");
 
             sb.AppendLine($"\t[RoutePrefix(\"{tbl.Name}s\")]");
@@ -575,8 +575,8 @@ namespace Mosaic.CodePro.Models.CodeWriters
             //StringBuilder sbProxy = new StringBuilder();
             //foreach (var tbl in instance.Tables.Where(x => x.IsSelected))
             //{
-            //    sbProxy.AppendLine($"import {{ Get,Put, Post ,Delete }} from '@mosaic/request';");
-            //    sbProxy.AppendLine($"import GetSetting from '@mosaic/app-configuration';");
+            //    sbProxy.AppendLine($"import {{ Get,Put, Post ,Delete }} from '@SensibleProgramming/request';");
+            //    sbProxy.AppendLine($"import GetSetting from '@SensibleProgramming/app-configuration';");
             //    sbProxy.AppendLine($"let baseUrl = null;");
 
             //    sbProxy.AppendLine(@"async function GetBaseUrl() {
@@ -611,9 +611,9 @@ namespace Mosaic.CodePro.Models.CodeWriters
             sb.AppendLine($"using System.Security.Principal;");
             //sb.AppendLine($"using System.;");
             //sb.AppendLine($"using System.;");
-            sb.AppendLine($"using Mosaic.{tbl.DatabaseName}.Models;");
+            sb.AppendLine($"using SensibleProgramming.{tbl.DatabaseName}.Models;");
             sb.AppendLine($"");
-            sb.AppendLine($"namespace Mosaic.{tbl.DatabaseName}.WebProxy");
+            sb.AppendLine($"namespace SensibleProgramming.{tbl.DatabaseName}.WebProxy");
             sb.AppendLine("{");
             sb.AppendLine($"\tpublic static class {tbl.Name}WebProxy");
             sb.AppendLine("\t{");
@@ -720,11 +720,11 @@ namespace Mosaic.CodePro.Models.CodeWriters
             sb.AppendLine($"using System.Threading.Tasks;");
             sb.AppendLine($"using System.Web;");
             sb.AppendLine($"using System.Web.Http;");
-            sb.AppendLine($"using Mosaic.{tbl.DatabaseName}.DAL.Repositories;");
-            sb.AppendLine($"using Mosaic.{tbl.DatabaseName}.Models;");
-            sb.AppendLine($"using Mosaic.{tbl.DatabaseName}.MVC.Models;");
+            sb.AppendLine($"using SensibleProgramming.{tbl.DatabaseName}.DAL.Repositories;");
+            sb.AppendLine($"using SensibleProgramming.{tbl.DatabaseName}.Models;");
+            sb.AppendLine($"using SensibleProgramming.{tbl.DatabaseName}.MVC.Models;");
             sb.AppendLine($"");
-            sb.AppendLine($"namespace Mosaic.{tbl.DatabaseName}.MVC.Controllers");
+            sb.AppendLine($"namespace SensibleProgramming.{tbl.DatabaseName}.MVC.Controllers");
             sb.AppendLine("{");
 
             sb.AppendLine($"\t[RoutePrefix(\"{tbl.Name}\"]");
@@ -834,12 +834,12 @@ namespace Mosaic.CodePro.Models.CodeWriters
             sb.AppendLine($"using System.Threading.Tasks;");
             sb.AppendLine($"using System.Web;");
             sb.AppendLine($"using System.Web.Http;");
-            sb.AppendLine($"using Mosaic.{tbl.DatabaseName}.DAL.Repositories;");
-            sb.AppendLine($"using Mosaic.{tbl.DatabaseName}.Models;");
-            sb.AppendLine($"using Mosaic.{tbl.DatabaseName}.MVC.Models;");
-            sb.AppendLine($"using Mosaic.{tbl.DatabaseName}.WebProxy;");            
+            sb.AppendLine($"using SensibleProgramming.{tbl.DatabaseName}.DAL.Repositories;");
+            sb.AppendLine($"using SensibleProgramming.{tbl.DatabaseName}.Models;");
+            sb.AppendLine($"using SensibleProgramming.{tbl.DatabaseName}.MVC.Models;");
+            sb.AppendLine($"using SensibleProgramming.{tbl.DatabaseName}.WebProxy;");            
             sb.AppendLine($"");
-            sb.AppendLine($"namespace Mosaic.{tbl.DatabaseName}.MVC.Controllers");
+            sb.AppendLine($"namespace SensibleProgramming.{tbl.DatabaseName}.MVC.Controllers");
             sb.AppendLine("{");
 
             sb.AppendLine($"\t[RoutePrefix(\"{tbl.Name}\"]");
@@ -959,7 +959,7 @@ namespace Mosaic.CodePro.Models.CodeWriters
             sb.AppendLine($"using System;");
             sb.AppendLine($"using System.ComponentModel.DataAnnotations;");
             sb.AppendLine($"using System.ComponentModel.DataAnnotations.Schema;");
-            sb.AppendLine($"namespace Mosaic.{tbl.DatabaseName}.MVC.Models");
+            sb.AppendLine($"namespace SensibleProgramming.{tbl.DatabaseName}.MVC.Models");
             sb.AppendLine("{");
 
             if (tbl is Access.AccessInstance.AccessTable ||

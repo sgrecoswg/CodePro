@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Mosaic.Core.Extensions")]
+[assembly: AssemblyTitle("SensibleProgramming.Core.Extensions")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Mosaic")]
-[assembly: AssemblyProduct("Mosaic.Core.Extensions")]
-[assembly: AssemblyCopyright("Copyright © Mosaic 2018")]
+[assembly: AssemblyCompany("SensibleProgramming")]
+[assembly: AssemblyProduct("SensibleProgramming.Core.Extensions")]
+[assembly: AssemblyCopyright("Copyright © SensibleProgramming 2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

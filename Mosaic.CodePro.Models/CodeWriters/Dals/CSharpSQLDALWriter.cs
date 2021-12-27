@@ -1,4 +1,4 @@
-﻿using Mosaic.Data.SQL;
+﻿using SensibleProgramming.Data.SQL;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 
-namespace Mosaic.CodePro.Models.CodeWriters.Dals
+namespace SensibleProgramming.CodePro.Models.CodeWriters.Dals
 {
     public class CSharpSQLDALWriter : CSharpDALWriter, IWriteDALS
     {
@@ -27,7 +27,7 @@ namespace Mosaic.CodePro.Models.CodeWriters.Dals
             sb.AppendLine($"using System;");
             sb.AppendLine($"using System.Collections.Generic;");            
             sb.AppendLine($"using System.Data.SqlClient;");
-            sb.AppendLine($"namespace Mosaic.{instance.Name}.SQL.Repositories");
+            sb.AppendLine($"namespace SensibleProgramming.{instance.Name}.SQL.Repositories");
             sb.AppendLine("{");
 
             sb.AppendLine($"\tpublic class I{tbl.Name}Repository");

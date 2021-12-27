@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Mosaic.CodePro.WPF.Pages
+namespace SensibleProgramming.CodePro.WPF.Pages
 {
     /// <summary>
     /// Interaction logic for ChooseSourcePage.xaml

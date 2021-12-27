@@ -1,5 +1,5 @@
-﻿using Mosaic.Core.Models;
-using Mosaic.Data.SQL;
+﻿using SensibleProgramming.Core.Models;
+using SensibleProgramming.Data.SQL;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Mosaic.CodePro.Models.CodeWriters.Dals
+namespace SensibleProgramming.CodePro.Models.CodeWriters.Dals
 {
     public class CSharpDapperDALWriter: CSharpDALWriter, IWriteDALS
     {
@@ -28,7 +28,7 @@ namespace Mosaic.CodePro.Models.CodeWriters.Dals
             sb.AppendLine($"using System;");
             sb.AppendLine($"using System.Collections.Generic;");
             sb.AppendLine($"using Dapper;");
-            sb.AppendLine($"namespace Mosaic.{instance.Name}.DAL.Repositories");
+            sb.AppendLine($"namespace SensibleProgramming.{instance.Name}.DAL.Repositories");
             sb.AppendLine("{");
 
             sb.AppendLine($"\tpublic interface I{tbl.Name}Repository");

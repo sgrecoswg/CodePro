@@ -1,4 +1,4 @@
-﻿using Mosaic.Data.SQL;
+﻿using SensibleProgramming.Data.SQL;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Mosaic.CodePro.Models.CodeWriters.Dals
+namespace SensibleProgramming.CodePro.Models.CodeWriters.Dals
 {
     public class CSharpEntityFrameworkDALWriter : CSharpDALWriter, IWriteDALS
     {
@@ -27,7 +27,7 @@ namespace Mosaic.CodePro.Models.CodeWriters.Dals
             sb.AppendLine($"using System;");
             sb.AppendLine($"using System.Collections.Generic;");
             sb.AppendLine($"using EntityFramework;");
-            sb.AppendLine($"namespace Mosaic.{instance.Name}.EF.Repositories");
+            sb.AppendLine($"namespace SensibleProgramming.{instance.Name}.EF.Repositories");
             sb.AppendLine("{");
 
             sb.AppendLine($"\tpublic class I{tbl.Name}Repository");

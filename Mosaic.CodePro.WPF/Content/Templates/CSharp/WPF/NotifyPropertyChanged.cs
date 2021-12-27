@@ -1,7 +1,7 @@
 ﻿
 using System.ComponentModel;
 
-namespace Mosaic.CodePro.Models
+namespace SensibleProgramming.CodePro.Models
 {
     public class NotifyPropertyChanged : INotifyPropertyChanged
     {

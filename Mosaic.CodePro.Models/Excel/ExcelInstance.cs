@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Mosaic.CodePro.Models.Excel
+namespace SensibleProgramming.CodePro.Models.Excel
 {   
     public class ExcelInstance : BaseDataBaseContainer
     {

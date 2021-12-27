@@ -17,7 +17,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Mosaic.CodePro.WPF.Pages
+namespace SensibleProgramming.CodePro.WPF.Pages
 {
     /// <summary>
     /// Interaction logic for GenerateJSProxy.xaml
@@ -39,7 +39,7 @@ namespace Mosaic.CodePro.WPF.Pages
 
         private void btnCreateProxy_Click(object sender, RoutedEventArgs e)
         {
-            var _assembly = Assembly.LoadFrom(@"C:\Dev\git\EForms\Mosaic.EForms.WebAPI\bin\Mosaic.EForms.WebAPI.dll");
+            var _assembly = Assembly.LoadFrom(@"C:\Dev\git\EForms\SensibleProgramming.EForms.WebAPI\bin\SensibleProgramming.EForms.WebAPI.dll");
             var _controllerGrouping = _assembly.GetExportedTypes()
                                     .Where(t=>t.BaseType.Name == "ApiController" && !t.IsInterface && !t.IsAbstract)
                                     .SelectMany(type => type.GetMethods(BindingFlags.Instance | BindingFlags.DeclaredOnly | BindingFlags.Public))
@@ -68,8 +68,8 @@ namespace Mosaic.CodePro.WPF.Pages
 
 
             StringBuilder sbProxy = new StringBuilder();
-            sbProxy.AppendLine($"import {{ Get,Put, Post ,Delete }} from '@mosaic/request';");
-            sbProxy.AppendLine($"import GetSetting from '@mosaic/app-configuration';");
+            sbProxy.AppendLine($"import {{ Get,Put, Post ,Delete }} from '@SensibleProgramming/request';");
+            sbProxy.AppendLine($"import GetSetting from '@SensibleProgramming/app-configuration';");
             sbProxy.AppendLine($"let baseUrl = null;");
 
             sbProxy.AppendLine(@"async function GetBaseUrl() {

@@ -4,7 +4,7 @@ using System;
 using System.Data;
 using System.Xml;
 
-namespace Mosaic.Core.Extensions
+namespace SensibleProgramming.Core.Extensions
 {
     public static class NPOIExcelExtensions
     {

@@ -1,6 +1,6 @@
 ﻿using System.Windows.Controls;
 
-namespace Mosaic.CodePro.WPF.Pages
+namespace SensibleProgramming.CodePro.WPF.Pages
 {
     /// <summary>
     /// Interaction logic for GenerateCsharp.xaml

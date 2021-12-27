@@ -7,12 +7,12 @@ using System.Windows;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Mosaic.CodePro.WPF")]
+[assembly: AssemblyTitle("SensibleProgramming.CodePro.WPF")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Mosaic")]
-[assembly: AssemblyProduct("Mosaic.CodePro.WPF")]
-[assembly: AssemblyCopyright("Copyright © Mosaic 2018")]
+[assembly: AssemblyCompany("SensibleProgramming")]
+[assembly: AssemblyProduct("SensibleProgramming.CodePro.WPF")]
+[assembly: AssemblyCopyright("Copyright © SensibleProgramming 2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

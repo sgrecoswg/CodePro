@@ -1,4 +1,4 @@
-﻿using Mosaic.Core.Models;
+﻿using SensibleProgramming.Core.Models;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Mosaic.CodePro.Models.Oracle
+namespace SensibleProgramming.CodePro.Models.Oracle
 {
     public partial class OracleInstance : BaseDataBaseContainer
     {

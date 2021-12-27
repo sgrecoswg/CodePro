@@ -1,4 +1,4 @@
-﻿using Mosaic.CodePro.Models.CodeWriters;
+﻿using SensibleProgramming.CodePro.Models.CodeWriters;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -15,7 +15,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Mosaic.CodePro.WPF.Pages
+namespace SensibleProgramming.CodePro.WPF.Pages
 {
     /// <summary>
     /// Interaction logic for ChooseOutputOptions.xaml

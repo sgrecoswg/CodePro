@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Mosaic.Core.Models
+namespace SensibleProgramming.Core.Models
 {
     public abstract class Notifier
     {
