@@ -65,15 +65,15 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Mosaic.CodePro.Models\SensibleProgramming.CodePro.Models.csproj">
+    <ProjectReference Include="..\SensibleProgramming.CodePro.Models\SensibleProgramming.CodePro.Models.csproj">
       <Project>{957c5b5b-725a-4e48-a9ea-05b42ad1b2f0}</Project>
       <Name>SensibleProgramming.CodePro.Models</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Mosaic.CodePro.WPF\SensibleProgramming.CodePro.WPF.csproj">
+    <ProjectReference Include="..\SensibleProgramming.CodePro.WPF\SensibleProgramming.CodePro.WPF.csproj">
       <Project>{1B282C7E-9821-408D-A06B-10676F62D266}</Project>
       <Name>SensibleProgramming.CodePro.WPF</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Mosaic.Core.Extensions\SensibleProgramming.Core.Extensions.csproj">
+    <ProjectReference Include="..\SensibleProgramming.Core.Extensions\SensibleProgramming.Core.Extensions.csproj">
       <Project>{0F5883EE-F084-47CA-A979-896F0C30E42C}</Project>
       <Name>SensibleProgramming.Core.Extensions</Name>
     </ProjectReference>

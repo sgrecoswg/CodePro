@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30002.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SensibleProgramming.CodePro.WPF", "Mosaic.CodePro.WPF\SensibleProgramming.CodePro.WPF.csproj", "{1B282C7E-9821-408D-A06B-10676F62D266}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SensibleProgramming.CodePro.WPF", "SensibleProgramming.CodePro.WPF\SensibleProgramming.CodePro.WPF.csproj", "{1B282C7E-9821-408D-A06B-10676F62D266}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SensibleProgramming.CodePro.WPFTests", "Mosaic.CodePro.WPFTests\SensibleProgramming.CodePro.WPFTests.csproj", "{521F001F-4B7D-4795-961B-E4775DE091B6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SensibleProgramming.CodePro.WPFTests", "SensibleProgramming.CodePro.WPFTests\SensibleProgramming.CodePro.WPFTests.csproj", "{521F001F-4B7D-4795-961B-E4775DE091B6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{93E67EB2-D06D-4DF6-958D-1DFB853B8606}"
 EndProject
@@ -13,11 +13,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WPF", "WPF", "{2DA404F7-104
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{4672E336-054D-4331-910E-C8BF8213FE84}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SensibleProgramming.CodePro.Models", "Mosaic.CodePro.Models\SensibleProgramming.CodePro.Models.csproj", "{957C5B5B-725A-4E48-A9EA-05B42AD1B2F0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SensibleProgramming.CodePro.Models", "SensibleProgramming.CodePro.Models\SensibleProgramming.CodePro.Models.csproj", "{957C5B5B-725A-4E48-A9EA-05B42AD1B2F0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{540CF2B8-2A72-4679-A016-DA2FB8DFF81C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SensibleProgramming.Core.Extensions", "Mosaic.Core.Extensions\SensibleProgramming.Core.Extensions.csproj", "{0F5883EE-F084-47CA-A979-896F0C30E42C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SensibleProgramming.Core.Extensions", "SensibleProgramming.Core.Extensions\SensibleProgramming.Core.Extensions.csproj", "{0F5883EE-F084-47CA-A979-896F0C30E42C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

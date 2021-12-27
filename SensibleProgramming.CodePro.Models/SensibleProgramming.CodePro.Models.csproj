@@ -77,7 +77,7 @@
     <Compile Include="Common\UIOptions.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Mosaic.Core.Extensions\SensibleProgramming.Core.Extensions.csproj">
+    <ProjectReference Include="..\SensibleProgramming.Core.Extensions\SensibleProgramming.Core.Extensions.csproj">
       <Project>{0F5883EE-F084-47CA-A979-896F0C30E42C}</Project>
       <Name>SensibleProgramming.Core.Extensions</Name>
     </ProjectReference>
