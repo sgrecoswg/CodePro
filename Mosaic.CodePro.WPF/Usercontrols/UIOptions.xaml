@@ -1,0 +1,22 @@
+﻿<UserControl x:Class="Mosaic.CodePro.WPF.Usercontrols.UIOptions"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Mosaic.CodePro.WPF.Usercontrols"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <StackPanel>
+            <TextBlock>Select Project Type(s):</TextBlock>
+            <!--<CheckBox Name="chbxClassLibrary" IsChecked="{Binding Path=OutputAsClassLibrary,Mode=TwoWay}">Class library</CheckBox>-->
+            <CheckBox Name="chbxMVC" IsChecked="{Binding Path=OutputAsMVC,Mode=TwoWay}">MVC</CheckBox>
+            <CheckBox Name="chbxWebAPI" IsChecked="{Binding Path=OutputAsWebAPI,Mode=TwoWay}">WebAPI</CheckBox>
+            <CheckBox Name="chbxWPF" IsChecked="{Binding Path=OutputAsWPF,Mode=TwoWay}">WPF</CheckBox>
+            <CheckBox Name="chbxJavaScript" IsChecked="{Binding Path=OutputAsJSLibrary,Mode=TwoWay}">Javascript</CheckBox>
+            <CheckBox Name="chbxDAL" IsChecked="{Binding Path=OutputDAL,Mode=TwoWay}">Data Access</CheckBox>
+            <CheckBox Name="chbxDomain" IsChecked="{Binding Path=OutputDomain,Mode=TwoWay}">Domain</CheckBox>
+            <CheckBox Name="chbxCommandEvents" IsChecked="{Binding Path=OutputCommandSEvents,Mode=TwoWay}">Command and Events</CheckBox>
+        </StackPanel>
+    </Grid>
+</UserControl>

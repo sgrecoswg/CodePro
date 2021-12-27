@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2019
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mosaic.CodePro.WPF", "Mosaic.CodePro.WPF\Mosaic.CodePro.WPF.csproj", "{1B282C7E-9821-408D-A06B-10676F62D266}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mosaic.CodePro.WPFTests", "Mosaic.CodePro.WPFTests\Mosaic.CodePro.WPFTests.csproj", "{521F001F-4B7D-4795-961B-E4775DE091B6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{93E67EB2-D06D-4DF6-958D-1DFB853B8606}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WPF", "WPF", "{2DA404F7-104E-4C2B-9894-B850B1DD1287}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{4672E336-054D-4331-910E-C8BF8213FE84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mosaic.CodePro.Models", "Mosaic.CodePro.Models\Mosaic.CodePro.Models.csproj", "{957C5B5B-725A-4E48-A9EA-05B42AD1B2F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{540CF2B8-2A72-4679-A016-DA2FB8DFF81C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mosaic.Core.Extensions", "Mosaic.Core.Extensions\Mosaic.Core.Extensions.csproj", "{0F5883EE-F084-47CA-A979-896F0C30E42C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B282C7E-9821-408D-A06B-10676F62D266}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B282C7E-9821-408D-A06B-10676F62D266}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B282C7E-9821-408D-A06B-10676F62D266}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B282C7E-9821-408D-A06B-10676F62D266}.Release|Any CPU.Build.0 = Release|Any CPU
+		{521F001F-4B7D-4795-961B-E4775DE091B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{521F001F-4B7D-4795-961B-E4775DE091B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{521F001F-4B7D-4795-961B-E4775DE091B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{521F001F-4B7D-4795-961B-E4775DE091B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{957C5B5B-725A-4E48-A9EA-05B42AD1B2F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{957C5B5B-725A-4E48-A9EA-05B42AD1B2F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{957C5B5B-725A-4E48-A9EA-05B42AD1B2F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{957C5B5B-725A-4E48-A9EA-05B42AD1B2F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F5883EE-F084-47CA-A979-896F0C30E42C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F5883EE-F084-47CA-A979-896F0C30E42C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F5883EE-F084-47CA-A979-896F0C30E42C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F5883EE-F084-47CA-A979-896F0C30E42C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1B282C7E-9821-408D-A06B-10676F62D266} = {2DA404F7-104E-4C2B-9894-B850B1DD1287}
+		{521F001F-4B7D-4795-961B-E4775DE091B6} = {93E67EB2-D06D-4DF6-958D-1DFB853B8606}
+		{957C5B5B-725A-4E48-A9EA-05B42AD1B2F0} = {4672E336-054D-4331-910E-C8BF8213FE84}
+		{0F5883EE-F084-47CA-A979-896F0C30E42C} = {540CF2B8-2A72-4679-A016-DA2FB8DFF81C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C423F371-7B6D-4FED-89C7-85D5E21D6BEC}
+	EndGlobalSection
+EndGlobal

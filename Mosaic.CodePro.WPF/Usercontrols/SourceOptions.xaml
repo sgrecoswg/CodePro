@@ -1,0 +1,60 @@
+﻿<UserControl x:Class="Mosaic.CodePro.WPF.Usercontrols.SourceOptions"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"              
+             xmlns:root="clr-namespace:Mosaic.CodePro.WPF"   
+             xmlns:local="clr-namespace:Mosaic.CodePro.WPF.Usercontrols"             
+             xmlns:models="clr-namespace:Mosaic.CodePro.Models;assembly=Mosaic.CodePro.Models"    
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="*"/>            
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="1" Orientation="Horizontal">
+            <StackPanel.Resources>
+                <root:EnumToBooleanConverter x:Key="EnumToBoolConverter" />
+                <Style x:Key="ImageRadioButton" TargetType="RadioButton">
+                    <Style.Triggers>
+                        <Trigger Property="IsChecked" Value="False">
+                            <Setter Property="Opacity" Value="0.5"/>
+                        </Trigger>
+                        <Trigger Property="IsChecked" Value="True">
+                            <Setter Property="Opacity" Value="1"/>
+                            <Setter Property="Width" Value="100"/>
+                            <Setter Property="Height" Value="100"/>
+                        </Trigger>
+                    </Style.Triggers>
+                    
+
+                    <Setter Property="BorderThickness" Value="2"/>
+                    <Setter Property="Width" Value="80"/>
+                    <Setter Property="Height" Value="80"/>
+                    <Setter Property="BorderBrush" Value="Black"/>
+
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="RadioButton">
+                                <Border BorderThickness="{TemplateBinding BorderThickness}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                Background="Transparent"
+                                CornerRadius="0">
+                                    <Image Source="{Binding Path=Content, RelativeSource={RelativeSource TemplatedParent}}"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </StackPanel.Resources>
+            <RadioButton Content="/Mosaic.CodePro.WPF;component/Content/Images/csharplogo.png"  Style="{StaticResource ImageRadioButton}"  IsChecked="{Binding Path=CodeSource,Mode=TwoWay,Converter={StaticResource EnumToBoolConverter},ConverterParameter={x:Static models:CodeSources.Dll }}" Name="rbtnDll"></RadioButton>
+            <RadioButton Content="/Mosaic.CodePro.WPF;component/Content/Images/json_logo.jpg"  Style="{StaticResource ImageRadioButton}"  IsChecked="{Binding Path=CodeSource,Mode=TwoWay,Converter={StaticResource EnumToBoolConverter},ConverterParameter={x:Static models:CodeSources.Json}}" Name="rbtnJson"></RadioButton>
+            <RadioButton Content="/Mosaic.CodePro.WPF;component/Content/Images/SQL Logo.png"  Style="{StaticResource ImageRadioButton}"  IsChecked="{Binding Path=CodeSource,Mode=TwoWay,Converter={StaticResource EnumToBoolConverter},ConverterParameter={x:Static models:CodeSources.SQL}}" Name="rbtnSQL"></RadioButton>
+            <RadioButton Content="/Mosaic.CodePro.WPF;component/Content/Images/excel_logo.png"  Style="{StaticResource ImageRadioButton}" IsChecked="{Binding Path=CodeSource,Mode=TwoWay,Converter={StaticResource EnumToBoolConverter},ConverterParameter={x:Static models:CodeSources.Excel}}" Name="rbtnExcel"></RadioButton>
+            <RadioButton Content="/Mosaic.CodePro.WPF;component/Content/Images/access_logo.png"  Style="{StaticResource ImageRadioButton}"  IsChecked="{Binding Path=CodeSource,Mode=TwoWay,Converter={StaticResource EnumToBoolConverter},ConverterParameter={x:Static models:CodeSources.Access}}" Name="rbtnAccess"></RadioButton>
+            <RadioButton Content="/Mosaic.CodePro.WPF;component/Content/Images/oracle_logo.png"  Style="{StaticResource ImageRadioButton}"  IsChecked="{Binding Path=CodeSource,Mode=TwoWay,Converter={StaticResource EnumToBoolConverter},ConverterParameter={x:Static models:CodeSources.Oracle}}" Name="rbtnOracle"></RadioButton>            
+            
+        </StackPanel>        
+    </Grid>
+</UserControl>

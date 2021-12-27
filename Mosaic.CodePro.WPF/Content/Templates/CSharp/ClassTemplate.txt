@@ -1,0 +1,21 @@
+﻿using System;
+namespace ~namespace~
+{
+	public class ~classname~
+	{
+		#region properties
+
+		~properties~
+
+		#endregion properties
+
+		#region cnstr
+
+		public ~classname~()
+		{
+		
+		}
+
+		#endregion cnstr
+	}
+}
